@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soulfish Fishing (OPC) Pvt Ltd - Fishing Materials & Accessories</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #0a4b78;
+            --secondary: #0088cc;
+            --accent: #f39c12;
+            --dark: #1a252f;
+            --light: #f8fafc;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Arial, sans-serif; }
+        body { background: var(--light); color: var(--dark); line-height: 1.6; }
+        
+        /* Header */
+        header { background: #fff; box-shadow: 0 2px 10px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 100; }
+        .nav-container { max-width: 1200px; margin: auto; display: flex; justify-content: space-between; align-items: center; padding: 12px 20px; }
+        .logo-area h1 { font-size: 20px; color: var(--primary); font-weight: 800; letter-spacing: 0.5px; }
+        .logo-area span { font-size: 12px; color: var(--secondary); display: block; }
+        .nav-links a { margin-left: 20px; text-decoration: none; color: var(--dark); font-weight: 600; }
+        .nav-links a:hover { color: var(--secondary); }
+
+        /* Hero */
+        .hero { background: linear-gradient(rgba(10, 75, 120, 0.85), rgba(0, 136, 204, 0.85)), url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1200&q=80') center/cover; color: #fff; text-align: center; padding: 90px 20px; }
+        .hero h2 { font-size: 38px; margin-bottom: 15px; }
+        .hero p { font-size: 18px; max-width: 700px; margin: 0 auto 25px; }
+        .btn { display: inline-block; padding: 12px 28px; background: var(--accent); color: #fff; text-decoration: none; border-radius: 25px; font-weight: bold; transition: 0.3s; }
+        .btn:hover { background: #d68100; transform: translateY(-2px); }
+
+        /* Sections */
+        .container { max-width: 1200px; margin: auto; padding: 60px 20px; }
+        .section-title { text-align: center; margin-bottom: 45px; }
+        .section-title h2 { color: var(--primary); font-size: 30px; }
+        .section-title div { width: 60px; height: 3px; background: var(--secondary); margin: 10px auto; }
+
+        /* Products Grid */
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 25px; }
+        .card { background: #fff; border-radius: 10px; padding: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border-top: 4px solid var(--secondary); }
+        .card h3 { color: var(--primary); margin-bottom: 15px; display: flex; align-items: center; gap: 10px; }
+        .card ul { list-style: none; }
+        .card ul li { padding: 7px 0; border-bottom: 1px dashed #eee; display: flex; align-items: center; }
+        .card ul li i { color: var(--secondary); margin-right: 10px; font-size: 12px; }
+
+        /* Contact & Info */
+        .contact-box { background: #fff; border-radius: 12px; padding: 35px; box-shadow: 0 5px 20px rgba(0,0,0,0.07); display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .info-item { display: flex; align-items: flex-start; gap: 15px; margin-bottom: 20px; }
+        .info-item i { font-size: 22px; color: var(--primary); margin-top: 5px; }
+        
+        /* Floating WhatsApp */
+        .whatsapp-float { position: fixed; bottom: 25px; right: 25px; background: #25d366; color: white; border-radius: 50px; padding: 12px 22px; font-weight: bold; text-decoration: none; display: flex; align-items: center; gap: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.25); z-index: 1000; }
+
+        /* Footer */
+        footer { background: var(--dark); color: #bbb; text-align: center; padding: 25px 20px; font-size: 14px; }
+        footer p { margin-bottom: 6px; }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="nav-container">
+            <div class="logo-area">
+                <h1>SOULFISH FISHING (OPC) PVT LTD</h1>
+                <span>FISHING MATERIALS & ACCESSORIES</span>
+            </div>
+            <nav class="nav-links">
+                <a href="#about">आमच्याबद्दल</a>
+                <a href="#products">उत्पादने</a>
+                <a href="#contact">संपर्क</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <h2>सर्वोत्कृष्ट मासेमारी साहित्य एकाच ठिकाणी</h2>
+        <p>मजबूत Rods, Reels, Hooks आणि सर्व प्रकारचे ॲक्सेसरीज घाऊक व किरकोळ दरात उपलब्ध.</p>
+        <a href="https://wa.me/918983696119?text=मला%20मासेमारी%20साहित्याची%20चौकशी%20करायची%20आहे" class="btn"><i class="fab fa-whatsapp"></i> व्हॉट्सॲपवर ऑर्डर करा</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container">
+        <div class="section-title">
+            <h2>आमच्याबद्दल (About Us)</h2>
+            <div></div>
+            <p>Soulfish Fishing (OPC) Private Limited ही दर्जेदार मासेमारी साहित्य आणि उपकरणांची अग्रगण्य पुरवठादार कंपनी आहे.</p>
+        </div>
+    </section>
+
+    <!-- Products -->
+    <section id="products" style="background: #eef3f7; padding: 60px 0;">
+        <div class="container">
+            <div class="section-title">
+                <h2>आमची उत्पादने (Products)</h2>
+                <div></div>
+            </div>
+            <div class="grid">
+                <div class="card">
+                    <h3><i class="fas fa-water"></i> Rods & Reels</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Fishing Rod</li>
+                        <li><i class="fas fa-check"></i> Fishing Reel</li>
+                        <li><i class="fas fa-check"></i> Spincast Reel</li>
+                        <li><i class="fas fa-check"></i> Spinning Reel</li>
+                        <li><i class="fas fa-check"></i> Baitcasting Reel</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3><i class="fas fa-link"></i> Line & Terminal</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Fishing Line</li>
+                        <li><i class="fas fa-check"></i> Quality Hooks</li>
+                        <li><i class="fas fa-check"></i> Sinkers</li>
+                        <li><i class="fas fa-check"></i> Bobbers</li>
+                        <li><i class="fas fa-check"></i> Swivels</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3><i class="fas fa-fish"></i> Bait & Lures</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Live Bait</li>
+                        <li><i class="fas fa-check"></i> Artificial Lures</li>
+                        <li><i class="fas fa-check"></i> Spoons</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3><i class="fas fa-tools"></i> Accessories & Tools</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Tackle Box</li>
+                        <li><i class="fas fa-check"></i> Fishing Pliers & Net</li>
+                        <li><i class="fas fa-check"></i> Fish Gripper & Cutters</li>
+                        <li><i class="fas fa-check"></i> Pressure Pump</li>
+                        <li><i class="fas fa-check"></i> Ice Box & Fishing Knife</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Details -->
+    <section id="contact" class="container">
+        <div class="section-title">
+            <h2>संपर्क आणि पत्ता (Contact Us)</h2>
+            <div></div>
+        </div>
+        <div class="contact-box">
+            <div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <strong>दुकान / कार्यालयाचा पत्ता:</strong>
+                        <p>Shop No. 1, Alankar Building, Krishna Township, Ambadi Cross Road, Near Surya Garden, Vasai - West, Maharashtra - 401202.</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-user-tie"></i>
+                    <div>
+                        <strong>संचालक (Director):</strong>
+                        <p>Mr. Sameer D. Jadhav</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="info-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <div>
+                        <strong>मोबाईल / फोन:</strong>
+                        <p><a href="tel:8983696119" style="text-decoration:none; color:var(--dark);">+91 8983696119</a></p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <strong>ईमेल:</strong>
+                        <p><a href="mailto:soulfish@rediffmail.com" style="text-decoration:none; color:var(--dark);">soulfish@rediffmail.com</a></p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-id-card"></i>
+                    <div>
+                        <strong>कंपनी CIN:</strong>
+                        <p>U46900MR2026OPC480963</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/918983696119?text=मला%20मासेमारी%20साहित्याची%20चौकशी%20करायची%20आहे" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp" style="font-size: 20px;"></i> संपर्क करा
+    </a>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Soulfish Fishing (OPC) Private Limited. All Rights Reserved.</p>
+        <p>CIN: U46900MR2026OPC480963 | Vasai - West, Maharashtra</p>
+    </footer>
+
+</body>
+</html>
